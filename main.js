@@ -101,3 +101,7 @@ mobileMinusCaseBtn.addEventListener('click',function(){
     const totalPrice = updateTotalPrice(subTotal);
     document.getElementById('totalPrice').innerText = totalPrice;
 })
+
+const checkOutBtn = document.getElementById('checkOutBtn').addEventListener('click',function(){
+    alert('Are you want to visit checkout page?');
+})
