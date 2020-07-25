@@ -10,7 +10,9 @@ function totalPositiveQuantity(id){
 function totalNegativeQuantity(id){
     const quantity = document.getElementById(id).value;
     const quantityNumber = parseInt(quantity);
-    const total= quantityNumber - 1;
+    let total = 0;
+    if(quantityNumber>0)
+        total = quantityNumber - 1;
     return total;
 }
 
